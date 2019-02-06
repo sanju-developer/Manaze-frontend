@@ -1,0 +1,28 @@
+.item-btn {
+    width: 90%;
+    margin: 20px;
+}
+.item-name{
+    padding: 10px 0;
+}
+.error{
+    padding: 5px 15px;
+    text-align: left;
+    color: red;
+}
+:host{
+    --highlight-color-invalid: #fff;
+    --highlight-color-valid: #fff;
+}
+.login-avatar{
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+.login-card{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.login-form {
+    padding-top: 20px;
+}
